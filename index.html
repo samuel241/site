@@ -1,61 +1,93 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>meu primeiro site</title>
+    <title>Document</title>
 </head>
 
 <body>
-    <header>
-        <h1>samuel</h1>
-        <nav><!--seção de navegação do site-->
-            <ul><!--lista nao ordenada para links do nosso menu-->
-                <li><a href="#sobre">sobre mim</a></li>
-                <li><a href="#projeto">projeto</a></li>
-                <li><a href="#contato">contato</a></li>
-                <li><a href="https://google.com" target="_blank">google</a></li>
-            </ul>
-        </nav>
-    </header>
+
+</body>
+
+</html>DOCTYPE html> <! <html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>meu primeiro site</title>
+    </head>
 
     <body>
-        <section id="sobre">
-            <h2>sobre mim</h2>
-            <article>
-                <p>me chamo samuel, estou começando na área de programação. adcionado mais um texto</p>
-            </article>
-            <img src="WhatsApp Image 2026-02-05 at 17.08.31.jpeg" alt="foto de perfil" title="imagem">
+        <header>
+            <h1>samuel</h1>
+            <nav><!--seção de navegação do site-->
+                <ul><!--lista nao ordenada para links do nosso menu-->
+                    <li><a href="#sobre">sobre mim</a></li>
+                    <li><a href="#projeto">projeto</a></li>
+                    <li><a href="#contato">contato</a></li>
+                    <li><a href="https://google.com" target="_blank">google</a></li>
+                </ul>
+            </nav>
+        </header>
 
-        </section>
+        <body>
+            <section id="sobre">
+                <h2>sobre mim</h2>
+                <article>
+                    <p>me chamo samuel, estou começando na área de programação. adcionado mais um texto</p>
+                </article>
+                <img src="WhatsApp Image 2026-02-05 at 17.08.31.jpeg" alt="foto de perfil" title="imagem">
+            </section>
 
-        <section>
-            <h2>habilidades</h2>
-            <ul>
-                <li>css</li>
-                <li>java</li>
-                <li>html</li>
-            </ul>
-        </section>
-        <section id="projeto">
-            <h2>projetos</h2>
-            <article>
-                <p>meu primeiro projeto vai ser programar esse site</p>
-            </article>
-        </section>
-        <section id="contato">
-            <footer>
-                <h3>contato</h3>
-                
+            <section>
+                <h2>habilidades</h2>
+                <ul>
+                    <li>css</li>
+                    <li>java</li>
+                    <li>html</li>
+                </ul>
+            </section>
+            <section id="projeto">
+                <h2>projetos</h2>
+                <article>
+                    <p>meu primeiro projeto vai ser programar esse site</p>
+                </article>
+            </section>
+
+
+            <section id="contato">
+                <footer>
                     <p>pensa em fazer um projeto? entre em contato</p>
-                
-                <form action=""></form>
+                    <h3>contato</h3>
 
-                
+                    <form action=""><label for="nome">nome: </label>
+                        <input type="text" id="nome" name="nome" required> <br>
+                        <label for="email">email: </label>
+                        <input type="email" id="email" name="email" required> <br>
+                        <label for="telefone">telefone: </label>
+                        <input type="tel" id="telefone" name="telefone" required> <br>
 
+                        <label for="assunto">assunto: </label>
+                        <select name="assunto" id="assunto">
+                            <option value="orcamento">orçamento</option>
+                            <option value="duvida">dúvida</option>
+                            <option value="outros">outros</option>
 
-            </footer>
-        </section>
+                        </select>
+                        <br>
+                        <label for="mensagem">mensagem: </label>
+                        <textarea name="mensagem" id="mensagem"></textarea>
+                        <br>
+                        <input type="checkbox" id="inscricao" name="inscricao">
+                        <label for="inscricao">desenha receber minha letter? fique por dentro</label>
+                        <br>
+                        <input type="submit" value="enviar mensagem">
 
-</html>
+                    </form>
+                </footer>
+
+            </section>
+
+        </body>
